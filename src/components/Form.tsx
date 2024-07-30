@@ -10,7 +10,7 @@ const Form = () => {
         setCount(count + 1);
       }}
     >
-      <input type="text" value={count} />
+      <input defaultValue={0} type="text" value={count} />
       <button type="submit">Submit</button>
     </form>
   );
