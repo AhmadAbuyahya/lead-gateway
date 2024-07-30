@@ -11,7 +11,7 @@ const Form = () => {
       }}
     >
       <input type="text" value={count} />
-      <button type="submit">Submit</button>
+      <button type="submit">Submit updated</button>
     </form>
   );
 };
